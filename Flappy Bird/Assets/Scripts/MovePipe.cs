@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class MovePipe : MonoBehaviour
@@ -17,6 +18,7 @@ public class MovePipe : MonoBehaviour
   }
   private void Update()
   {
+ 
     if (timer > _maxTime)
     {
       SpawnPipe();
